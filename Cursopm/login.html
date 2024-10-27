@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input {
+            border-radius: 6px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Entre com seu formulário e senha para Logar:</h2>
+
+    <form name="form1" action="verifica.php" method="post">
+        <label for="login">Nome:</label>
+        <input type="text" name="login" id="login">
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <br>
+        <input class="button" name="Submit" type="submit" value="Enviar">
+
+
+
+    </form>
+</body>
+</html>
