@@ -11,11 +11,12 @@
         <h1>Trabalhando com Números Aleatórios</h1>
         <p>Gerando um número aleatório entre 0 e 100...</p>
 
-        <?php 
-        
+        <?php
+
         $num = random_int(0, 100);
         echo "O valor gerado foi $num";
-        
+
+
         ?>
 
         <br>
